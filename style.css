@@ -38,20 +38,20 @@ dir{
  width: 100px;
  height: 50px;
 }
-#vk{
+ #vk{
  border-radius: 30px;
  background-color: rgb(37, 86, 231);
  color:white;
  margin:10px;
  width: 100px;
  height: 50px;
-}
- #twitch:hover{
+ }
+#twitch:hover{
  animation:hover-twitch 0.5s infinite;
 }
-#vk:hover{
+ #vk:hover{
  animation:hover-vk 0.5s infinite;
-}
+ }
     @keyframes hover-twitch {
         0%{
     background-color:rgb(106, 0, 255);
