@@ -30,7 +30,7 @@ dir{
   background-clip: text;*/
 }
 
-input{
+#twitch{
  border-radius: 30px;
  background-color:rgb(106, 0, 255);
  color:white;
@@ -38,8 +38,19 @@ input{
  width: 100px;
  height: 50px;
 }
- input:hover{
+#vk{
+ border-radius: 30px;
+ background-color: rgb(37, 86, 231);
+ color:white;
+ margin:10px;
+ width: 100px;
+ height: 50px;
+}
+ #twitch:hover{
  animation:hover-twitch 0.5s infinite;
+}
+#vk:hover{
+ animation:hover-vk 0.5s infinite;
 }
     @keyframes hover-twitch {
         0%{
@@ -50,5 +61,16 @@ input{
         }
         100%{
         background-color: rgb(106, 0, 255);
+        }
+    }
+    @keyframes hover-vk {
+        0%{
+    background-color: rgb(37, 86, 231);
+        }
+        50%{
+        background-color: rgb(96, 127, 222);
+        }
+        100%{
+        background-color:  rgb(37, 86, 231) ;
         }
     }
